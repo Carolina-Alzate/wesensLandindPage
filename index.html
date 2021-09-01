@@ -4,13 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="StyleSheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://api.fontshare.com/css?f[]=switzer@500,600,700,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <title>Wesens</title>
   </head>
   <body>
+    <nav>
+      <a href="#" class="logo"> <img src="img/wesens.svg" /></a>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+          <span></span>
+        </li>
+        <li><a href="#">awareness</a></li>
+        <li><a href="#">Animalpedia</a></li>
+        <li><a href="#">About us </a></li>
+      </ul>
+    </nav>
+
     <section>
       <img src="img/jaguar.jpg" id="bg" />
       <img src="img/tree.png" id="tree" />
@@ -28,7 +43,7 @@
 
         bg.style.top = value * 0.2 + "px";
         tree.style.left = -value * 0.2 + "px";
-        sheet.style.top = -value * 1 + "px";
+        sheet.style.top = value * 1 + "px";
         tittle.style.top = value * 1.5 + "px";
       });
     </script>
