@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -21,9 +21,10 @@ nav {
   background: linear-gradient(to bottom, #121212, transparent);
 }
 
-nav .logo {
-  width: 120px;
+.logo {
+  width: 100px;
   height: auto;
+  margin-left: 20px;
 }
 
 nav ul {
@@ -100,16 +101,21 @@ section img {
   left: 30px;
   text-transform: uppercase;
   font-weight: bold;
+  top: -550px;
+  font-family: 'Fjalla One', sans-serif;
+  word-wrap: break-word;
+  writing-mode: vertical-lr;
+  line-height:20px;
+  margin-left: 60px
 }
 
 #wild {
   position: relative;
   z-index: 1;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #ffd500;
   left: 80px;
-  font-family: "Quicksand", sans-serif;
-  overflow: hidden;
+
 }
 
 #sheet {
